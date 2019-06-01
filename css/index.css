@@ -70,26 +70,67 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* my code starts here */
+.h1 {
+    align-content: center;
+}
+
 
 .top-content {
     display: flex;
+    text-align: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content .title .container {
+    display: flex;
+    text-align: center;
+}
 
 .top-content .text-container {
-    width: 48%;
+    width: 40%;
+    font-size: 20px;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 30px;  
+    text-align: center
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+#box1 { 
+    background-color: teal;
+}
+#box2 {
+    background-color: yellow;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color:darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -99,6 +140,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-content: center
 }
 
 .middle-content .boxes .box {
@@ -111,7 +153,6 @@ p {
     align-items: center;
     justify-content: center;
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
